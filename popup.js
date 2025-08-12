@@ -52,7 +52,7 @@ chrome.storage.local.get(
                         } else {
                             document.getElementById("statusIcon").style.display = "none";
                             document.getElementById("status").textContent = "❌ Failed to send message";
-                            window.open("https://app.flow.spookysrv.com/?chromeLogin", "_blank");
+                            window.open("https://app.flow.spookysrv.com/?webExtLogin", "_blank");
                         }
                     });
                 }
@@ -63,7 +63,7 @@ chrome.storage.local.get(
 
         } else {
             document.getElementById("status").textContent = "No token found.";
-            window.open("https://app.flow.spookysrv.com/?chromeLogin", "_blank");
+            window.open("https://app.flow.spookysrv.com/?webExtLogin", "_blank");
         }
     }
 );

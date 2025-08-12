@@ -45,7 +45,7 @@ function showNotification(message, duration = 4000, color = '#4CAF50') {
         }, 300);
     }, duration);
 }
-if (window.location.href.includes('chromeLogin') || localStorage.getItem('chromeLogin') == 'true') {
+if (window.location.href.includes('webExtLogin') || localStorage.getItem('webExtLogin') == 'true') {
     showNotification('Trying to login...', 1000, '#00bbffff');
 }
 setTimeout(() => {
@@ -57,17 +57,17 @@ setTimeout(() => {
             () => { }
         );
 
-        if (window.location.href.includes('chromeLogin') || localStorage.getItem('chromeLogin') == 'true') {
+        if (window.location.href.includes('webExtLogin') || localStorage.getItem('webExtLogin') == 'true') {
             showNotification('Flow Extension login successful');
-            localStorage.removeItem('chromeLogin');
+            localStorage.removeItem('webExtLogin');
         }
 
 
     } else {
         console.log('flutter.convoToken not found in localStorage');
-        if (window.location.href.includes('chromeLogin')) {
+        if (window.location.href.includes('webExtLogin')) {
             showNotification('Please login to use the Flow Extension', 300000, '#aa0e00');
-            localStorage.setItem('chromeLogin', 'true');
+            localStorage.setItem('webExtLogin', 'true');
         }
     }
 }, 1000);
