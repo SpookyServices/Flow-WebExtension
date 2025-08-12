@@ -27,7 +27,7 @@
   "name": "Flow by Spooky Services",
   "homepage_url": "https://flow.spookysrv.com",
   "permissions": ["declarativeNetRequest", "sidePanel", "tabs", "storage"],
-  "version": "0.0.7",
+  "version": "0.0.8",
   "declarative_net_request": {
     "rule_resources": [
       {

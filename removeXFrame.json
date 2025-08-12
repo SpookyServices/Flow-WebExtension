@@ -11,7 +11,7 @@
       ]
     },
     "condition": {
-      "regexFilter": "(app[.]flow[.]spookysrv[.]com)",
+      "urlFilter": "|https://app.flow.spookysrv.com/",
       "initiatorDomains": [
         "cmfoilmkmkedmpioeboekceblflilphn",
         "pcejpbhaekjehkbkjhekimoomfiioflf"
