@@ -13,9 +13,10 @@
     "condition": {
       "urlFilter": "|https://app.flow.spookysrv.com/",
       "initiatorDomains": [
+        "cnjljmfjmdmmkajpkdfofnbigmpcoinc",
         "cmfoilmkmkedmpioeboekceblflilphn",
-        "pcejpbhaekjehkbkjhekimoomfiioflf",
-        "ppcncmpiopegojmhppobcoijcgojecoe"
+        "ppcncmpiopegojmhppobcoijcgojecoe",
+        "pidnajejeekceabghmbefddfdladaiib"
       ]
     }
   }

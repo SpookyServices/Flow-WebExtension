@@ -1,0 +1,13 @@
+{
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "commands": {
+    "openSidePanel": {
+      "description": "Open Side Panel",
+      "suggested_key": {
+        "default": "Alt+P"
+      }
+    }
+  }
+}

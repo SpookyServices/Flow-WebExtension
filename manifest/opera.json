@@ -1,0 +1,16 @@
+{
+  "sidebar_action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "64": "icon64.png",
+      "128": "icon128.png"
+    },
+    "default_title": "Flow by Spooky Services",
+    "default_panel": "sidepanel.html",
+    "open_at_install": false,
+    "mobile_user_agent": true,
+    "use_navigation_bar": true
+  }
+}

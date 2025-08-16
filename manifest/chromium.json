@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["declarativeNetRequest", "sidePanel", "tabs", "storage"],
+  "host_permissions": ["https://app.flow.spookysrv.com/*"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "enabled": true,
+        "id": "removeXFrame",
+        "path": "removeXFrame.json"
+      }
+    ]
+  }
+}
