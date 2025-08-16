@@ -50,22 +50,14 @@ chrome.storage.local.get({ convoToken: "unknown" }, (items) => {
             document.getElementById("statusIcon").style.display = "none";
             document.getElementById("status").textContent =
               "❌ Failed to send message";
-            window.open(
-              "https://app.flow.spookysrv.com/?webExtLogin",
-              "_blank"
-            );
+            openTab("https://app.flow.spookysrv.com/?webExtLogin");
           }
         });
       }
     });
   } else {
     document.getElementById("status").innerHTML = "No token found";
-    browser.permissions.request({
-      origins: ["https://app.flow.spookysrv.com/*"],
-    });
-    browser.tabs.create({
-      url: "https://app.flow.spookysrv.com/?webExtLogin",
-    });
+    openTab("https://app.flow.spookysrv.com/?webExtLogin");
     window.close();
   }
 });
