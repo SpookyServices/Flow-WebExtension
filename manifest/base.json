@@ -2,7 +2,7 @@
   "name": "Flow by Spooky Services",
   "short_name": "Flow",
   "description": "Flow allows you to send notes and links between your devices seamlessly.",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "author": "Spooky Services",
   "homepage_url": "https://flow.spookysrv.com",
   "icons": {
