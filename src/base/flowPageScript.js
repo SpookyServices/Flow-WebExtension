@@ -72,3 +72,5 @@ setTimeout(() => {
     }
 }, 1000);
 
+localStorage.setItem('flutter.webExtVersion', `"${chrome.runtime.getManifest().version}"`);
+

@@ -15,7 +15,7 @@
   "content_scripts": [
     {
       "all_frames": true,
-      "js": ["getConvoToken.js"],
+      "js": ["flowPageScript.js"],
       "matches": ["https://app.flow.spookysrv.com/*"]
     }
   ]
