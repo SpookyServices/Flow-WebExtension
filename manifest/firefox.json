@@ -1,14 +1,9 @@
 {
-  "manifest_version": 2,
-  "permissions": ["tabs", "storage", "https://app.flow.spookysrv.com/*"],
+  "permissions": ["tabs", "storage"],
   "browser_specific_settings": {
     "gecko": {
       "id": "flow@spookysrv.com"
     }
-  },
-  "browser_action": {
-    "default_popup": "popup.html",
-    "default_title": "Flow by Spooky Services"
   },
   "sidebar_action": {
     "default_icon": {

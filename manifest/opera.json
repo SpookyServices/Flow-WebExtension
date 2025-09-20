@@ -1,16 +1,14 @@
 {
+  "permissions": ["declarativeNetRequest", "tabs", "storage"],
   "sidebar_action": {
     "default_icon": {
-      "16": "icon16.png",
-      "32": "icon32.png",
-      "48": "icon48.png",
-      "64": "icon64.png",
-      "128": "icon128.png"
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "128": "icons/128.png"
     },
     "default_title": "Flow by Spooky Services",
-    "default_panel": "sidepanel.html",
-    "open_at_install": false,
-    "mobile_user_agent": true,
-    "use_navigation_bar": true
+    "default_panel": "sidepanel.html"
   }
 }

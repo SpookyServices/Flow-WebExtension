@@ -1,4 +1,8 @@
 {
+  "permissions": ["declarativeNetRequest", "sidePanel", "tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
   "side_panel": {
     "default_path": "sidepanel.html"
   },
